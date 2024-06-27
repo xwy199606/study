@@ -87,8 +87,8 @@ public class ListNodeLearn {
         head.next.next.next.next.next = new ListNode(4);
         head.next.next.next.next.next.next = new ListNode(5);
 
-//        ListNode res = revert(head);
-        ListNode res = delDupNode1(head);
+        ListNode res = revert(head);
+//        ListNode res = delDupNode1(head);
         while (res != null) {
             System.out.print(res.value + " ");
             res = res.next;
